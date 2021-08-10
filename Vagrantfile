@@ -7,5 +7,6 @@ Vagrant.configure("2") do |config|
       vb.memory = 4096
       vb.cpus = 2
     end
+    vb.customize ["modifyvm", :id, "--uartmode1", "file", File.join(Dir.pwd, ".vagrant/uart1.log").sub("/", File::ALT_SEPARATOR)]
     # config.vm.provision :shell, path: "setup.sh"
 end
