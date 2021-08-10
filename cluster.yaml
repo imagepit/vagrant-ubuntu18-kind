@@ -6,9 +6,4 @@ networking:
 nodes:
 - role: control-plane
 - role: worker
-  extraPortMappings:
-  - containerPort: 8080
-    hostPort: 8080
-  - containerPort: 30082
-    hostPort: 30082
 - role: worker
