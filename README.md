@@ -3,6 +3,7 @@
 ## 環境
 
 - ubuntu18
+- docker
 
 ## 使い方
 
