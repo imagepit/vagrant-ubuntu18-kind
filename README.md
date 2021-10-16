@@ -4,6 +4,7 @@
 
 - ubuntu18
 - docker
+- kind
 
 ## 使い方
 
